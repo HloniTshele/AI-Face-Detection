@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/AI-Face-Detection/static/css/main.0f54915a.css",
-    "main.js": "/AI-Face-Detection/static/js/main.ce1e970a.js",
+    "main.js": "/AI-Face-Detection/static/js/main.d55aa426.js",
     "static/js/787.28cb0dcd.chunk.js": "/AI-Face-Detection/static/js/787.28cb0dcd.chunk.js",
     "index.html": "/AI-Face-Detection/index.html",
     "main.0f54915a.css.map": "/AI-Face-Detection/static/css/main.0f54915a.css.map",
-    "main.ce1e970a.js.map": "/AI-Face-Detection/static/js/main.ce1e970a.js.map",
+    "main.d55aa426.js.map": "/AI-Face-Detection/static/js/main.d55aa426.js.map",
     "787.28cb0dcd.chunk.js.map": "/AI-Face-Detection/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0f54915a.css",
-    "static/js/main.ce1e970a.js"
+    "static/js/main.d55aa426.js"
   ]
 }
