@@ -1,12 +1,12 @@
-import   express from "express";
+import   express from 'express';
 import  bodyParser from 'body-parser';
 import  bcrypt from 'bcrypt-nodejs';
 import  cors from 'cors';
 import  knex from 'knex';
-import  register from './controllers/register';
-import  login from './controllers/signIn';
+import  register from './controllers/register.js';
+import  login from './controllers/signIn.js';
 import  image from './controllers/image.js';
-import  profile from './controllers/profile';
+import  profile from './controllers/profile.js';
 
 const db = knex({
         client: 'pg',
