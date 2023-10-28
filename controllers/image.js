@@ -10,7 +10,7 @@ const handleApiCall =(req,res)=>{
 
 const clarifyReturnOptions =(ImageURL)=>{
     // Your PAT (Personal Access Token) can be found in the portal under Authentification
-    const PAT = '5834cadeafb54f4d8a8849d0c5b6438a';
+    const PAT = process.env.API_CLARIFAI;
     // Specify the correct user_id/app_id pairings
     // Since you're making inferences outside your app's scope
     const USER_ID = 'hlonitshele';    
