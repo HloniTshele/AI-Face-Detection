@@ -59,10 +59,8 @@ const imageHandler = (req,res,db)=>{
     .catch(err=> res.status(400).json("Unable to get entries"))
 }
 
-module.exports ={
-    imageHandler,
-    handleApiCall
-}
+
+export default {imageHandler, handleApiCall}
 
 
 

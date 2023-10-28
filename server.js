@@ -1,12 +1,12 @@
-const  express = require("express");
-const bodyParser = require('body-parser');
-const bcrypt = require('bcrypt-nodejs');
-const cors = require('cors');
-const knex = require('knex');
-const register = require('./controllers/register');
-const login = require('./controllers/signIn');
-const image = require('./controllers/image.js');
-const profile = require('./controllers/profile');
+import   express from "express";
+import  bodyParser from 'body-parser';
+import  bcrypt from 'bcrypt-nodejs';
+import  cors from 'cors';
+import  knex from 'knex';
+import  register from './controllers/register';
+import  login from './controllers/signIn';
+import  image from './controllers/image.js';
+import  profile from './controllers/profile';
 
 const db = knex({
         client: 'pg',
