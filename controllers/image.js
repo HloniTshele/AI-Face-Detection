@@ -1,4 +1,4 @@
-const handleApiCall =(req,res)=>{
+export const handleApiCall =(req,res)=>{
     const MODEL_ID = 'face-detection';
     fetch("https://api.clarifai.com/v2/models/" + MODEL_ID + "/outputs", clarifyReturnOptions(req.body.input))
     .then(response => response.json())
@@ -48,7 +48,7 @@ const clarifyReturnOptions =(ImageURL)=>{
 
 
 //adding the users entries
-const imageHandler = (req,res,db)=>{
+export const imageHandler = (req,res,db)=>{
     let {id}  = req.body;
     db('users').where('id', '=', id)
     .increment('entries',1)
@@ -58,9 +58,6 @@ const imageHandler = (req,res,db)=>{
     })
     .catch(err=> res.status(400).json("Unable to get entries"))
 }
-
-
-export default {imageHandler,handleApiCall} 
 
 
 
