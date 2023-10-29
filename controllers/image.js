@@ -60,7 +60,7 @@ const imageHandler = (req,res,db)=>{
 }
 
 
-export {imageHandler, handleApiCall} 
+export default {imageHandler, handleApiCall} 
 
 
 
