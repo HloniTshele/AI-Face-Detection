@@ -1,3 +1,5 @@
+import fetch from "node-fetch";
+
 export const handleApiCall =(req,res)=>{
     const MODEL_ID = 'face-detection';
     fetch("https://api.clarifai.com/v2/models/" + MODEL_ID + "/outputs", clarifyReturnOptions(req.body.input))
