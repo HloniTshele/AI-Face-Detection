@@ -5,7 +5,8 @@ import  cors from 'cors';
 import  knex from 'knex';
 import  handleRegister from './controllers/register.js';
 import  signInHandler from './controllers/signIn.js';
-import  {imageHandler, handleApiCall} from './controllers/image.js';
+import  imageHandler from './controllers/image.js';
+import  handleApiCall from './controllers/image.js';
 
 
 
